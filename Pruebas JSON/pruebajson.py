@@ -51,5 +51,5 @@ while elemento < len(relato): #while es más complejo :c
       
     #era buena idea pero ya es obsoleto el uso de "elemento" para ir sumando de a uno y recorriendo el relato "linealmente", es mejor añadir a cada sección del relato un metadato que indique a qué sección se sigue desde cada una
     
-    #no puedo ponerle mayúsculas a las llaves o a los valores en el JSON o todo colapsa ._.
+    #no puedo ponerle tildes a las llaves o a los valores en el JSON o todo colapsa ._.
     input("ENTER para continuar \n")
