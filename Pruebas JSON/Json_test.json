@@ -1,14 +1,14 @@
 [
   {
-    "tipo": "texto unico",
+    "tipo": "texto único",
     "contenido": "bienvenida"
   },
   {
-    "tipo": "texto unico",
+    "tipo": "texto único",
     "contenido": "tres caminos, escoge:" 
   },
   {
-    "tipo": "decision",
+    "tipo": "decisión",
     "contenido": [
       {
         "num": 1,
