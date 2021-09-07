@@ -15,16 +15,16 @@ print("")
 
 while elemento < len(relato): #while es más complejo :c
 
-#for elemento in relato: #recorre todas las partes del relato que pueden ser "texto unico", "decision" o "texto opciones"
+#for elemento in relato: #recorre todas las partes del relato que pueden ser "texto unico", "decision" o "texto dependiente"
     
-    if relato[elemento]["tipo"] == "texto único": #si es texto unico simplemente lo muestra
+    if relato[elemento]["tipo"] == "texto unico": #si es texto unico simplemente lo muestra
         print(relato[elemento]["contenido"])
         elemento+=1    
     
         
-    elif relato[elemento]["tipo"] == "decisión": #si hay una decision debe mostrar todas las opciones al lector y permitirle escoger
+    elif relato[elemento]["tipo"] == "decision": #si hay una decision debe mostrar todas las opciones al lector y permitirle escoger
         for opcion in relato[elemento]["contenido"]: #muestra opciones
-            print(str(opcion["num"])+". "+opcion["opción"])
+            print(str(opcion["num"])+". "+opcion["opcion"])
         
         decision_valida = False #creo una variable para representar si la opción ingresada es valida, esta va a servir para que, hasta que lo sea, le pida al lector que escoja una opción
         while not decision_valida: #mientras que la opción no sea válida, hará todo lo que sigue. El curioso lector de este código se dará cuenta de que ninguno de los nombres de variables tiene tildes, esto es porque las letras con acentos son caracteres especiales que pueden generar errores, espero que no pase lo mismo con las cadenas de texto, es decir el relato y los poemas en sí, pero esperaría que no.
@@ -34,7 +34,7 @@ while elemento < len(relato): #while es más complejo :c
             else:
                 decision_valida = True #se escogió una decisión válida, así que puede continuar
                 recorrido = relato[elemento]["contenido"][int(decision_tomada)-1]["recorrido"] #guarda el recorrido escogido para saber qué camino debe seguir el relato, "recorrido" es una propiedad de cada decision que dice el camino al que lleva la decisión. Es mejor hacer esto que usar el índice de la lista puesto que podría haber dos decisiones que lleven al mismo camino. -1 porque el indice de las listas empieza en 0.
-                print("\nEscojiste: " + relato[elemento]["contenido"][int(decision_tomada)-1]["opción"]) #repite la opción escogida
+                print("\nEscojiste: " + relato[elemento]["contenido"][int(decision_tomada)-1]["opcion"]) #repite la opción escogida
                 
                 if relato[elemento]["contenido"][int(decision_tomada)-1]["rebobinar"]>0: #si el número de "pasos" en el relato que se quieren rebobinar es mayor a cero, se imprime en consola el resultado de la decisión y se rebobina esa cantidad de pasos
                     print(relato[elemento+1]["contenido"][recorrido-1])
@@ -51,4 +51,5 @@ while elemento < len(relato): #while es más complejo :c
       
     #era buena idea pero ya es obsoleto el uso de "elemento" para ir sumando de a uno y recorriendo el relato "linealmente", es mejor añadir a cada sección del relato un metadato que indique a qué sección se sigue desde cada una
     
+    #no puedo ponerle mayúsculas a las llaves o a los valores en el JSON o todo colapsa ._.
     input("ENTER para continuar \n")
