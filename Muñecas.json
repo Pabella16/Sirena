@@ -1,0 +1,31 @@
+[
+  {
+    "tipo": "titulo",
+    "indice": 0,
+    "contenido": "MUÑECAS",
+    "siguiente": 1
+  },
+  {
+    "tipo": "texto unico",
+    "indice": 1,
+    "contenido": "Nueva York se abre ante tus ojos como una de las primeras muestras que recibes de que el mundo es demasiado grande como para que algún día logres conocerlo realmente. En once años de vida jamás te habías sentido como cuando, por primera vez,",
+    "siguiente": 2
+  },
+  {
+    "tipo": "decision",
+    "indice": 2,
+    "contenido": [
+      {
+        "numero": 1,
+        "opcion": "te paraste en frente de un rascacielos y casi quedas tendido ahí en la calle al mirar hacia arriba.",
+        "recorrido": 1,
+        "rebobinar": 0,
+        "verso": [
+          "Paredes gruesas de alturas imposibles \n sostienen lejos y fuera de tu alcance",
+          "Paredes gruesas de alturas imposibles \n se alzan y te aíslan"
+        ],
+        "siguiente": 3
+      }
+    ]
+  }
+]
