@@ -362,11 +362,11 @@ preposicion = 0
 elemento = 0
 while elemento < len(relato):
     # Decidí darle un color verde claro muy ameno a las "instrucciones" que muestra el programa, como cuando se 
-    # debe presionar Enter para continuar o se debe ingresar un número. La siguiente instrucción reestablece el 
-    # color del texto para que no se vuelva todo verde. Creo que esto ayuda a diferenciar una parte de la otra 
-    # y ayuda a ubicarse en el texto que va apareciendo. Esas instrucciones son como otra voz además del relato
-    # y del programa/comentarios. ¡Cuánta polifonía! 
-    print("\033[1;37;m",end="")
+    # debe presionar Enter para continuar o se debe ingresar un número. Tuve que quitar esa instrucciòn en esta
+    # versión Web pero creo que es una diferencia que ayuda a diferenciar una parte de la otra y ayuda a ubicarse 
+    # en el texto que va apareciendo. Esas instrucciones son como otra voz además del relato y del programa/comentarios.
+    # ¡Cuánta polifonía! 
+    print("",end="")
 
     # Si la sección referenciada es un título pues... muestra el título ¿qué más esperabas? Mentira, hace algo
     # más, crea de una el poema como una lista vacía con el número de elementos correcto.
@@ -386,13 +386,13 @@ while elemento < len(relato):
         # la siguiente instrucción toma de la sección que se está revisando el índice en la lista de la sección
         # que sigue, así se navega el cuento como debe ser, serpenteando según la voluntad del lector.
         elemento = relato[elemento]["siguiente"]
-        input("\033[1;32;mENTER PARA CONTINUAR\n")
+        input("\nENTER PARA CONTINUAR\n")
         
     # Ahora sí, sí es texto único solamente lo muestra y no pasa más na'    
     elif relato[elemento]["tipo"] == "TU":
         print(relato[elemento]["contenido"])
         elemento = relato[elemento]["siguiente"] 
-        input("\033[1;32;mENTER PARA CONTINUAR\n")
+        input("\nENTER PARA CONTINUAR\n")
     
     # En cambio, sí la sección es una decisón se pone bien peliaguda la cosa. Hay que mostrar las opciones,
     # permitir que se escoja una de ellas y regañar si se ingresa un valor inválido, registrar si tiene un 
@@ -421,10 +421,10 @@ while elemento < len(relato):
         # me ayuda a evitar la confusión de accidentalmente ponerle a unas y a otras no.
         while not decision_valida:
             # esto le pide al usuario que introduzca una de las opciones
-            decision_tomada = input("\033[1;32;m¿Qué opción escoges? " + "(1 a " + str(len(relato[elemento]["contenido"]))+ "): ")
+            decision_tomada = input("¿Qué opción escoges? " + "(1 a " + str(len(relato[elemento]["contenido"]))+ "): ")
             # con esto me aseguro de que la opción ingresada sea un número de las opciones posibles.
             if not decision_tomada.isdigit() or int(decision_tomada)>len(relato[elemento]["contenido"]) or int(decision_tomada)<=0: 
-                print("\033[1;32;m\nDebes escoger una de las opciones posibles introduciendo un número.")
+                print("\nDebes escoger una de las opciones posibles introduciendo un número.")
             else:
                 decision_valida = True  # se escogió una decisión válida, así que puede continuar
                              
@@ -493,7 +493,7 @@ while elemento < len(relato):
                 # propiedad "input" de la decisión para saber si es o no el caso revisando si el valor de la clave es
                 # diferente a un string vacío. Si es el caso, usa el string que haya como valor para pregntar la respuesta
                 if relato[elemento]["contenido"][int(decision_tomada) - 1]["input"] != "":
-                    respuesta = input("\033[1;37;m" + relato[elemento]["contenido"][int(decision_tomada) - 1]["input"])
+                    respuesta = input("" + relato[elemento]["contenido"][int(decision_tomada) - 1]["input"])
                 # Si no es necesario que el usuario ingrese una respuesta, sigue normal con las respuesta escogida.
                 else:
                     # Las decisiones tienen la propiedad "repetir" para guardar qué frase es la anterior a la decisión 
@@ -501,9 +501,9 @@ while elemento < len(relato):
                     repetir = relato[elemento]["repetir"]
                     # Repite la opción escogida con la última frase antes de la decisión
                     respuesta = relato[elemento]["contenido"][int(decision_tomada) - 1]["opción"]
-                    print("\033[1;37;m \n" + repetir + " " + respuesta) 
+                    print(" \n" + repetir + " " + respuesta) 
                 elemento = relato[elemento]["contenido"][int(decision_tomada) - 1]["siguiente"]  
-        input("\033[1;32;mENTER PARA CONTINUAR\n")
+        input("\nENTER PARA CONTINUAR\n")
         
     # El "texto dependiente", como dice su nombre, depende de una decisión. Estas instrucciones muestran el texto
     # apropiado según lo que se eligió antes. Hay un texto fijo y una "variación", esto es lo que escoge el valor de
@@ -519,9 +519,10 @@ while elemento < len(relato):
 
     # Si el tipo de texto es "FIN", el programa muestra el poema que se armó y apague y vámonos. Relato relatado.
     elif relato[elemento]["tipo"] == "FIN":
-        print("\033[1;32;mENTER PARA TERMINAR EL CUENTO Y VER TU POEMA\n")
+        print("ENTER PARA TERMINAR EL CUENTO Y VER TU POEMA\n")
+        
         for i in poema:
-            print("\033[1;37;m" + i)         
+            print("" + i) 
         elemento = relato[elemento]["siguiente"]
     
        
