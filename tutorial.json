@@ -1,0 +1,141 @@
+[
+	{
+		"tipo": "TU",
+		"indice": 0,
+		"dir":"L",
+		"contenido": "Hola, bienvenidx al tutorial para ‘Cantos de sirena’. Soy el programa que se encarga de correr este proyecto, podrás reconocerme cuando te hable con este lindo color verde. Igual la mayoría del tiempo no diré nada a menos que sea necesario…\n\nBueno, para empezar, lo más importante es que sepas hacer dos cosas que ya has hecho para llegar hasta aquí, la primera es presionar ENTER para pasar a la siguiente sección. Pruébalo ahora, presiona ENTER.\n ",
+		"siguiente": 1
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 1,
+		"dir":"L",
+		"contenido": "Excelente, qué forma de presionar ENTER. Nunca antes había presenciado tanta gracia, tanta habilidad. En adelante podrás presionar ENTER para pasar a la siguiente sección. Sin embargo, para escoger una opción en un menú debes introducir un número primero y luego sí presionar ENTER. Te voy a dar tres opciones y debes ingresar 1, 2 o 3 para escoger una de ellas.\n",
+		"siguiente": 2
+	},
+
+	{
+		"tipo": "DE",
+		"indice": 2,
+		"dir":"L",
+		"contenido": [
+			{
+				"num": 1,
+				"opción": "¡Qué gran tutorial!",
+				"input":"",
+				"siguiente": 3
+			},
+			{
+				"num": 2,
+				"opción": "Esto es aburrido.",
+				"input":"",
+				"siguiente": 4
+			},
+			{
+				"num": 3,
+				"opción": "¿Sueñan los androides con ovejas eléctricas?",
+				"input":"",
+				"siguiente": 5
+			}
+		] 
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 3,
+		"dir":"L",
+		"contenido": "¡Gracias! Me caes bien.\n",
+		"siguiente": 6
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 4,
+		"dir":"L",
+		"contenido": "Tú seleccionaste que querías ver el tutorial, así que no te pongas difícil.\n",
+		"siguiente": 6
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 5,
+		"dir":"L",
+		"contenido": "Qué buena pregunta... alguien debería escribir un libro sobre ella.\n",
+		"siguiente": 6
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 6,
+		"dir":"L",
+		"input":"\n¿Cuál es el título de esta monografía?\n",
+		"contenido": "¿En qué estábamos? Ah, sí, seleccionaste una opción magistralmente. Por último, también podrás encontrar una instrucción que te pida escribir algo antes de presionar ENTER. Probemos, te voy a hacer una pregunta, vas a ingresar algún texto para responderla y luego vas a presionar ENTER.",
+		"siguiente": 7
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 7,
+		"dir":"L",
+		"contenido": "Eso es todo lo que debes saber para interactuar conmigo. Lo demás es sobre lo que este proyecto contiene.",
+		"siguiente": 8
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 8,
+		"dir":"L",
+		"contenido": "En el menú principal encontrarás cinco opciones:\n\nLa primera opción, 'Leer relatos', te llevará al menú de los relatos que puedes leer. Usarás lo que te he enseñado hasta ahora para recorrer los relatos y tomar decisiones dentro del contexto de la trama. Las decisiones que tomes transformarán el texto, pero no siempre tendrán un efecto en la trama. Además, al tomar las decisiones construirás un poema único que recibirás al final del relato. Solo ciertas decisiones determinan qué partes se combinan para generar el poema, así que experimenta para recibir diferentes poemas.",
+		"siguiente": 9
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 9,
+		"dir":"L",
+		"contenido": "\nLa segunda opción, 'Ver galería de poemas', te mostrará los poemas que hayas creado hasta ahora con los relatos. Si ya hay un poema guardado y generas uno nuevo al releer un relato tendrás la opción de guardarlo en la galería o mantener el anterior. Lo mejor de las galerías es que, aún si cierras el programa, lo que hayas guardado o desbloqueado se mantendrá.",
+		"siguiente": 10
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 10,
+		"dir":"L",
+		"contenido": "\nLa tercera opción, 'Ver objetos coleccionables', te mostrará los objetos que hayas conseguido leyendo los relatos. Cada relato tiene un objeto único que puede estar escondido en ciertas decisiones. Cuando consigas un objeto aparecerá en esta galería con algo de información al respecto. ",
+		"siguiente": 11
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 11,
+		"dir":"L",
+		"contenido": "\nLa cuarta opción, 'Ver tutorial', te trae aquí por si necesitas volver a ver el tutorial o por si quieres pasar a saludar.",
+		"siguiente": 12
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 12,
+		"dir":"L",
+		"contenido": "\nLa quinta opción, 'Salir', cierra el programa.\n\nY ya, eso es todo lo que necesito explicarte. Yo sé, yo sé, también te voy a extrañar, pero aquí seguiré acompañándote.",
+		"siguiente": 13
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 13,
+		"dir":"R",
+		"contenido": "\nCuando de indicaciones durante los relatos me pasaré a este lado para no estorbar.",
+		"siguiente": 14
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 14,
+		"dir":"L",
+		"contenido": "\nEn los menús estaré de nuevo a la izquierda.\n\nListo, con esto concluye el tutorial, ahora te voy a mandar para el menú principal.",
+		"siguiente": 15
+	}
+
+]

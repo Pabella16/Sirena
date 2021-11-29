@@ -1,0 +1,611 @@
+[
+	{
+		"versión":"v.1.0, 2021-11-24",
+		"tipo": "TI",
+		"indice": 0,
+		"contenido": "PRESIÓN",
+		"poema": ["","","","",""],
+		"variaciones": ["",""],
+		"siguiente": 1
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 1,
+		"contenido": "El mundo tiene una forma rara de ser grande y pequeño a la vez cuando no tienes completamente claro quién eres. Es grande por todas las posibilidades que aparentemente existen, por todos los caminos que podrías recorrer y por todo lo que aún no conoces. Es pequeño por… lo mismo. Porque tanto desconocido significa que la burbuja que constituye lo que conoces es bastante pequeña. Estás atrapado dentro del ir y venir del colegio por las mismas calles en el mismo bus tembloroso y rugiente con el mismo morral lleno de los mismos cuadernos con las mismas tareas que te tomó toda la tarde hacer para que después puedas sacarte la mínima nota necesaria o puedas tirarte de todas formas los exámenes. Por fuera de las ventanas, más allá de las paredes de ladrillo y al otro lado de las pantallas hay promesas de cosas nuevas y distintas, pero ni siquiera sabes cómo querrías que tu vida cambiara. ",
+		"siguiente": 2
+	},
+
+	{
+		"tipo": "DE",
+		"indice": 2,
+		"prompt":"Si cierras los ojos e intentas imaginarlo, la imagen que aparece en tu cabeza es de ",
+		"contenido": [
+			{
+				"num": 1,
+				"opción": "una vida llena de lujos y riqueza. ",
+				"detalle": [],
+				"input":"",
+				"verso": [{"v":"Ramas secas y desnudas ", "preposición":0, "parte":1}],
+				"siguiente": 3
+			},
+			{
+				"num": 2,
+				"opción": "empezar desde cero. ",
+				"detalle": [],
+				"input":"",
+				"verso": [{"v":"Desprendidas de su germen, ", "preposición":0, "parte":1}],
+				"siguiente": 4
+			},
+			{
+				"num": 3,
+				"opción": "tener a alguien que te entienda. ",
+				"detalle": [],
+				"input":"",
+				"verso": [{"v":"A tientas, bajo la tierra fría, ", "preposición":0, "parte":1}],
+				"siguiente": 5
+			}
+		] 
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 3,
+		"contenido": "Tienes que ir al colegio para que en el futuro puedas ir a la universidad y luego puedas conseguir un trabajo de manera que no te mueras de hambre y puedas vivir bien. Cada instante estás asegurando que el siguiente instante salga bien para que muchos instantes después puedas estar tranquilo por un instante. Te abruma pensar en esa presión, así que imaginas que si tuvieras suficiente dinero para vivir de manera ostentosa, o al menos cómodamente sin tenerte que preocupar, podrías saltarte todo ese proceso para enfocarte en… ¿en qué? ¿en ser feliz? ¿qué significa eso exactamente? Podrías enfocarte en descubrir en qué deberías enfocarte. De cualquier forma, la plata parece ser la base necesaria para poder hacer lo que uno quiere. ",
+		"siguiente": 6 
+	},	
+
+	{
+		"tipo": "TU",
+		"indice": 4,
+		"contenido": "Imaginas que te mudas a cualquier otro lado donde nadie te conoce ni espera nada de ti. Podrías deshacerte de la rutina que ahora te consume y empezar a vivir sintiendo que tienes el propósito de reinventarte. Podrías encontrar este propósito dentro de ti mismo para motivarte con algo más allá del proyecto ambiguo de tu vida que se supone que tiene que impulsarte aunque no lo reconoces realmente como tuyo y aunque tiene una forma vaga solamente en un lugar lejano de tu futuro. Te imaginas a ti mismo como una página en blanco. ¿Por qué no empezar ahora? ¿por qué no crear ese nuevo yo desde ya? Sabes que no lo lograrías, pues las miradas de otros son demasiado intensas y te presiona la sensación de que haces parte de una obra ya montada. Necesitas un contexto completamente diferente para sentir que tienes una vida que tú mismo elegiste. ",
+		"siguiente": 6
+	},	
+
+
+	{
+		"tipo": "TU",
+		"indice": 5,
+		"contenido": "Y de paso que te explique, porque sientes que flotas sin rumbo y los días te arrastran como olas sin que logres conseguir de qué agarrarte, sin que logres entender cómo llegaste ahí en un principio. O sea, en realidad no se trata de una imagen porque no puedes imaginar cómo se vería alguien así. Lo que imaginas es la sensación de no estar solo y la conciencia de que existen personas con experiencias y formas de ver el mundo como las tuyas. Y solamente puedes imaginarlo porque lo que sientes todos los días es que la gente es diferente a ti. A los demás no les cuesta ir con la corriente o navegan sin esfuerzo, decidiendo lo que quieren para sí mismos. Tal vez hay alguien en alguna parte con quien te puedas sentir en sintonía, como si pertenecieras. ",
+		"siguiente": 6
+	},	
+
+	{
+		"tipo": "TU",
+		"indice": 6,
+		"contenido": "Pero ¿es eso lo que realmente quieres? ¿Hay forma de saber si te haría sentir satisfecho? Tal vez lo que necesitas es algo diferente y punto, sea un cambio drástico o simplemente un descanso. Desafortunadamente, no parece que algo así venga pronto. \n\n    Las vacaciones no van a salvarte de la rutina porque perdiste matemáticas y vas a tener que seguir viniendo al colegio para tomar cursos remediales. Ya lloraste, ya peleaste y ya, por fin, lo aceptaste. No es la primera vez que pierdes una materia, así que ya conoces la triste realidad que te espera y al menos la profesora te conoce y es comprensiva: sabe que te esfuerzas. ",
+		"siguiente": 7
+	},	
+
+	{
+		"tipo": "TU",
+		"indice": 7,
+		"contenido": "Pero bueno, eso será por la tarde, cuando todo el mundo se vaya a la casa y se queden solo los que perdieron clases para su primera sesión de recuperación. Por ahora, aunque sea el último día y ya a nadie le importen las clases, el año escolar técnicamente no ha terminado. Te lo recuerda tu profesor de Historia, que hace un recuento de la clase mientras que tú te distraes viendo el recorrido infinito del segundero en el reloj del salón y te preguntas cómo aprovechar al máximo el tiempo que todavía puedes pasar con tus amigos, pues ellos no perdieron ninguna materia y no te van a acompañar. Van a jugar fútbol a la hora del almuerzo, lo que, debes admitir, es un cambio en la rutina. ",
+		"siguiente": 8
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 8,
+		"contenido": "    Tu curso está dividido como te imaginas que se dividen los estudiantes en todos los colegios: los hombres que juegan fútbol, los raros que no y las niñas, que hacen lo suyo. Tú perteneces a los raros, a los que se pasan los recreos sentados por ahí debajo de un árbol charlando o refugiados en la biblioteca jugando en sus celulares, y jamás se te había ocurrido aventurarte a otros círculos hasta que, en la clase de educación física, experimentaste un simulacro de lo que era ser de los que juegan fútbol. ",
+		"siguiente": 9	
+	},	
+
+	{
+		"tipo": "TU",
+		"indice": 9,
+		"contenido": "Fue en una de esas ocasiones raras en las que los profesores están cansados o de buen humor o simplemente no tienen nada planeado entonces deciden unir varios grupos que de lo contrario estarían practicando distintos ejercicios para que jueguen algún deporte de equipos entre sí. Le huiste al fútbol desde antes de la primaria, cuando veías a los niños quitarse la camiseta para jugar y oías a las niñas juzgarlos o burlarse. Te ganaban el pudor y el miedo porque se pateaban, se empujaban y creaban semejante tumulto en el espacio pequeñito que destinaban para jugar que no habrías sabido cómo entrar aunque quisieras. Sin embargo, ahora no tenías más opción porque era una clase.  ",
+		"siguiente": 10	
+	},	
+
+	{
+		"tipo": "TU",
+		"indice": 10,
+		"contenido": "    Para tu sorpresa, no estuvo tan grave. Tus compañeros te dieron algunos consejos y, como jugaste de defensa, no te regañaron tanto como sí regañaban a los delanteros cuando no hacían pases o desperdiciaban los tiros. Pudiste quedarte gran parte del juego parado en tu puesto mientras veías al resto de tu equipo luchar por meter goles y hasta  hiciste el intento de defender de verdad en vez de quedarte congelado o de hacer un amague flojo de robarte la pelota como algunos de tus compañeros que tampoco estaban acostumbrados a jugar fútbol. No sabes de dónde sacaste el coraje, pero algo dentro de ti te empujó a enfrentarte a un delantero del otro equipo que venía de la otra cancha con la pelota. ",
+		"siguiente": 11	
+	},	
+
+	{
+		"tipo": "DE",
+		"indice": 11,
+		"prompt":"Ignoraste el impulso que llevaba y la posibilidad de que te embistiera y te concentraste en ",
+		"contenido": [
+			{
+				"num": 1,
+				"opción": "su cara. ",
+				"detalle": [{"variación":"sin tener que volver a fallar como defensa.","posición":1}],
+				"input":"",
+				"verso": [{"v":"abrazan el primer atisbo de calor. ", "preposición":0, "parte":2}],
+				"siguiente": 12
+			},
+			{
+				"num": 2,
+				"opción": "sus piernas. ",
+				"detalle": [{"variación":"viéndolos jugar.","posición":1}],
+				"input":"",
+				"verso": [{"v":"crecen y se enredan. ", "preposición":0, "parte":2}],
+				"siguiente": 13
+			},
+			{
+				"num": 3,
+				"opción": "el balón. ",
+				"detalle": [{"variación":"recuperándote del dolor en el pie.","posición":1}],
+				"input":"",
+				"verso": [{"v":"se tuercen y buscan la luz. ", "preposición":0, "parte":2}],
+				"siguiente": 14
+			}
+		] 
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 12,
+		"contenido": "Notaste que te había visto por cómo miró a los lados buscando a quién pasarle el balón. Como no encontró a quién, se detuvo un poco y te miró a los ojos, como si intentara adivinar tus intenciones. Intentaste adivinar las suyas. Miró hacia tu izquierda y te preparaste para interceptarlo. Uno de los delanteros de tu equipo te gritó diciéndote que presionaras. Te acercaste a tu atacante pendiente de su mirada y lanzaste la pierna a la izquierda cuando él hizo un ademán correr. Te evadió fácilmente con un paso al lado opuesto, corrió a la cancha y metió gol. Algunos de los miembros de tu equipo exclamaron con frustración, pero no te dijeron nada. No parecían esperar mucho de ti. ",
+		"siguiente": 15	
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 13,
+		"contenido": "Intentaste entender cómo llevaba tan buen control sin tropezarse ni botar el balón accidentalmente. Notaste que impulsaba el balón como si fuera parte de sus pasos y que lo manejaba con los costados de sus pies, no con la punta como lo habrías hecho tú sin pensarlo dos veces. Se detuvo a un par de metros y te preparaste para interceptarlo. Hizo un amague hacia la derecha pero alcanzaste a darte cuenta de cómo su pie no estaba dispuesto para seguir corriendo, sino para detener el balón. Apuntaste a dónde imaginaste que lo detendría. Lanzaste la pierna con cuidado de girar el pie para pegarle con el costado. Tu pie hizo contacto con la pelota y la impulsó y corriste tras ella y ahora tú la tenías y la pasaste a alguien de tu equipo y se sintió tan satisfactorio y natural como rascarse una piquiña o como cuando una cosa encaja perfectamente dentro de otra. Igual de bien se sintió cuando viste la sorpresa en el rostro de tu atacante y oíste las palabras de aliento optimistas y asombradas de tu equipo. ",
+		"siguiente": 15	
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 14,
+		"contenido": "Rodaba tan rápido que temiste que jamás serías capaz de interceptarlo. Un poco a la izquierda, un poco a la derecha, un poco a la izquierda, un poco a la derecha, guiado por los pies del delantero. Se quedó quieto por fin sostenido bajo uno de sus pies. Decidiste que no podías quedarte ahí pensando y tomaste la oportunidad para dar un salto y mandar una patada directamente hacia el balón. Le pegaste con toda la punta y salió disparado más allá de la banda.\n\n    —¡Bien! —oíste que exclamó alguien de tu equipo y levantaste el pulgar intentando disimular el dolor que comenzó a palpitar en tus dedos del pie. ",
+		"siguiente": 15	
+	},
+
+	{
+		"tipo": "TD",
+		"indice": 15,
+		"contenido": {
+			"fijo":"El resto del partido los delanteros del otro equipo se esforzaron por ir por los lados de la cancha en los que estaban los defensas que en realidad no intentarían quitarles el balón, por lo que te pudiste quedar tranquilamente en tu posición ",
+			"parte":1
+		},
+		"siguiente": 16
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 16,
+		"contenido": "    Es probable que hasta ahí hubiera llegado tu experiencia con el fútbol en el colegio de no ser porque, a diferencia de ti, uno de tus amigos no ve las divisiones sociales como muros impasables sino como cortinas delgadas y fáciles de apartar y además tiene habilidades para el deporte, por lo que terminó invitado a jugar en los recreos y por extensión terminaron invitados tú y el resto de tu grupo a pesar de ser mucho menos atléticos. Así fue que conseguiste un vistazo exclusivo de lo que era ser de los que juegan fútbol. ",
+		"siguiente": 17
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 17,
+		"contenido": "Has jugado casi todos los días la última semana y comienzas a entender cómo se manejan los espacios en la cancha y cómo los equipos se mueven como una gran masa que empuja hacia adelante, jala hacia atrás, se estira hacia los lados y orbita constantemente alrededor del balón, que ejerce su influencia a través de fuerzas misteriosas y mantiene todo funcionando como un gran engranaje. Tal vez hay un lugar para ti en alguna parte de ese mecanismo. ",
+		"siguiente": 18
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 18,
+		"contenido": "El profesor de Historia dice tu nombre. No tienes idea de en qué va la clase.\n\n    —¿Es correcto? —te dice.\n\n    —¿Qué…? —respondes.\n\n    —¿Es correcto lo que dice tu compañero Andrés?",
+		"siguiente": 19
+	},
+
+	{
+		"tipo": "DE",
+		"indice": 19,
+		"prompt":"    —Emm… —dudas y decides responder que ",
+		"contenido": [
+			{
+				"num": 1,
+				"opción": "sí. ",
+				"detalle": [{"variación":"—Uy ¿y usted qué hace aquí? ¿sin joder perdió? —te dijo. ","posición":2}],
+				"coleccionable": "mapa en blanco de Colombia",
+				"input":"",
+				"verso": [],
+				"siguiente": 20
+			},
+			{
+				"num": 2,
+				"opción": "no. ",
+				"detalle": [{"variación":"—Muy inteligente para geografía pero para Matemáticas sí es bien bobo ¿no? —te dijo. ","posición":2}],
+				"input":"",
+				"verso": [],
+				"siguiente": 21
+			},
+			{
+				"num": 3,
+				"opción": "no sabes. ",
+				"detalle": [{"variación":"—¿Perdió Matemáticas? Yo juraba que usted era inteligente —te dijo.","posición":2}],
+				"input":"",
+				"verso": [],
+				"siguiente": 22
+			}
+		] 
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 20,
+		"contenido": "    —¿Cómo que sí? —dice tu profesor —¡Esto lo revisamos la semana pasada, muchachos! No puede ser que vamos a acabar el año sin que sepan ubicar los departamentos en el mapa. Cada uno se va a llevar uno de estos mapas de Colombia y de tarea para las vacaciones deben ubicar cada departamento designando nombre y capital.\n\n    Tu profesor reparte hojas con un mapa en blanco de Colombia. Recibes la tuya, la doblas y la guardas en tu cuaderno. Suspiras aliviado y agradeces que hiciera un regaño general en vez de llamarte la atención solamente a ti. Últimamente andas con la cabeza en las nubes y eso hace que termines en situaciones incómodas. Así sucedió hace dos días cuando jugabas fútbol en el recreo.",
+		"siguiente": 24
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 21,
+		"contenido": "    —Exactamente, no es correcto. Al menos uno de ustedes está poniendo atención, —dice tu profesor y apunta al mapa —esta región es la Orinoquía, los Llanos Orientales. Andrés tenía que haber indicado…\n\n    “Qué suerte,” dices para tus adentros. Sin querer diste la respuesta correcta y te zafaste de encima al profesor. Volteas hacia tus compañeros y te encuentras con que Andrés te está mirando como si quisiera matarte. Te pones nervioso y desvías rápidamente la mirada. ¿Acaso es tu culpa que él se hubiera equivocado? Piensas que no hay manera de ganar: si hubieras dado otra respuesta podrías haber evitado provocar la rabia de Andrés pero te habrías ganado la del profesor. No puedes hacer nada sin que a alguien le parezca mal, ni participar en clase ni quedarte parado, como aprendiste hace dos días jugando fútbol en el recreo.",
+		"siguiente": 24
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 22,
+		"contenido": "    —A ver ¿hay alguien que esté poniendo atención? —dice el profesor con frustración —si están en clase no es para estar pensando en lo que van a comer de almuerzo o lo que van a hacer de vacaciones, no importa que sea el último día, la clase se acaba cuando se acaba y no antes. Andrés, ven al tablero, tus compañeros te van a ayudar a ubicar las regiones y los departamentos.\n\n    Andrés se levanta malhumorado de su puesto y recibe un marcador del profesor, quien proyecta un mapa de Colombia sobre el tablero. Tragas saliva e intentas recordar lo que aprendieron de geografía.",
+		"siguiente": 23
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 23,
+		"contenido": "    —Tú primero —te dice el profesor —la Amazonía.\n\n    Agradeces que te tocó una más o menos fácil y apuntas hacia una sección aproximada del mapa. El profesor asiste a Andrés dibujando los límites y sigue interrogando a otros estudiantes. Te relajas un poco cuando te parece que el profesor se ha olvidado de ti. A veces te gustaría poder volverte invisible para evitar momentos como ese, que te hacen sentir observado y juzgado. Quisieras poder estar simplemente sin que te cuestionaran y evaluaran, y no solo en clase, pues pasa todo el tiempo, como hace dos días, cuando jugabas fútbol en el recreo.",
+		"siguiente": 24
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 24,
+		"contenido": "    Todo fue porque otro defensa te vio distraído en un momento en el que el balón demoraba en volver a tu cancha. Sin darte cuenta, tenías el brazo izquierdo doblado sobre el pecho con la mano agarrada del codo derecho, sosteniendo el otro brazo verticalmente pegado al cuerpo en una pose entre sumisión y timidez que a sus ojos debía parecer patética. Se acercó a ti como si te fuera a dar un consejo deportivo pero lo que hizo fue comentar sobre tu postura.\n\n    —No ponga así los brazos. Eso, baje ese brazo o cruce ambos pero no se pare así que así no se paran los hombres.",
+		"siguiente": 25
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 25,
+		"contenido": "Le agradeciste dentro de tu cabeza que te hiciera notarlo sin insultarte, pero no supiste qué hacer con los brazos. No se sentía natural mantenerlos a los lados del cuerpo y se sentía igual de raro cruzarlos. Era como si tuvieras que luchar contra el impulso de devolverlos a la posición en la que los tenías. Desde ese momento estás demasiado consciente de dónde ubicas los brazos y las palabras de tu compañero de equipo vuelven a ti como si hubieran sido una advertencia. Todo está determinado por las apariencias, si sabes imitar a los demás y seguir la corriente lo suficientemente bien, nadie se da cuenta de que en realidad no sabes lo que haces. ",
+		"siguiente": 26
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 26,
+		"contenido": "Te frustra, pero piensas que igual en esas cosas es mejor hacer caso, así como le hiciste caso a tu amigo cuando propuso que aceptaran la invitación a jugar fútbol, porque de lo contrario uno se encuentra con la punzada del rechazo y el abismo de la soledad. Imaginas que así debe sentirse tu amigo Daniel, que tiene una gran aversión al fútbol y prefiere quedarse solo en los recreos en vez de jugar. Las primeras veces que jugaron se sentaba aburrido y triste en un costado de la cancha pero ya ni siquiera anda con ustedes. ",
+		"siguiente": 27
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 27,
+		"contenido": "    “¡RIIIIIIIIIIIIIIIIIIIING!” \n\nSuena el timbre que anuncia el final de la clase y te hace olvidar lo que pensabas. El profesor les recuerda que deben revisar los temas de geografía en vacaciones para no olvidarlo todo y les desea felices vacaciones. Empacas tu cuaderno, en el que no anotaste una sola cosa, y sales a buscar a tus amigos para almorzar.",
+		"siguiente": 28
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 28,
+		"contenido": "    Almuerzan sin Daniel. Comen rápido y hablan de lo que harán esa tarde. Te entristeces pensando en que, cuando ellos estén disfrutando de su libertad, tú estarás en tu primer curso remedial de matemáticas. Terminan de almorzar, salen de la cafetería rumbo a la cancha de fútbol y ves a Daniel sentado en el pasto con un grupo de niñas. Piensas en preguntarle por qué no almorzó con ustedes, pero en realidad no te importa si está solo, acompañado, o si ya no quiere estar contigo y tus amigos. ",
+		"siguiente": 29
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 29,
+		"contenido": "    Daniel es amanerado, bajito, un poco grueso y usa gafas. Fue tu amigo desde que entraste al colegio, pero lo único que tienen en común es que nunca encajaron con los demás hombres, así que es una amistad forzada que solo ha durado por inercia. Sientes que tienes que fingir constantemente para no tener choques con él, que tienes que actuar como alguien más para ser su amigo. Él es hijo único y siempre fue egoísta, pretencioso y antipático contigo, incluso cuando eran pequeños y eras su único amigo. Te lo aguantabas porque también era tu único amigo, pero ahora estás cansado de él, sobre todo por la actitud que asumió desde la primera vez que aceptaron la invitación a jugar fútbol al almuerzo. ",
+		"siguiente": 30
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 30,
+		"contenido": "En las clases y en el recreo de la mañana hacía esfuerzos desesperados por hacer todas las conversaciones sobre él y, si no lo lograba, llamaba la atención provocando tus inseguridades y las de tus amigos. Sus palabras venenosas y su risa punzante suenan en tu cabeza: “¿se acuerdan cuando Carlos entró al colegio en primero y no tenía amigos y lo adoptamos?”, decía sobre tu amigo, “¿se acuerda cuando lo tumbé al piso porque me estaba molestando y le hice una llave? Me acuerdo que fue muy fácil como usted es tan enclenque”, te decía.",
+		"siguiente": 31
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 31,
+		"contenido": "    Llegas a la cancha con tus amigos y te sientes contento de que el fútbol los haya separado de Daniel aunque sea por unos días, pero se topan con que los de los cursos de abajo llegaron antes y se adueñaron de la cancha. Algunos compañeros tuyos discuten si echar a los más pequeños o buscar otro lugar para jugar sin llegar a un acuerdo. Tus amigos y tú se aburren y deciden irse, pero Mateo, uno de los de tu curso que estaba riéndose estrepitosamente con sus amigos, te llama y se acerca a ti. Tus amigos te dejan atrás y te dicen que te esperan donde siempre.",
+		"siguiente": 32
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 32,
+		"contenido": "    —Oiga una pregunta, también le quería preguntar a sus otros amigos pero bueno —te dice Mateo.\n\n    —¿Ajá? —dices. Ves que se dibujan sonrisas burlonas en el rostro de sus amigos. Él también sonríe con malicia.\n\n    —¿Daniel es gay? —pregunta pasito como si temiera que Daniel estuviera por ahí.",
+		"siguiente": 33
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 33,
+		"contenido": "    —No sé —respondes con sinceridad. Sabes que te lo pregunta porque Daniel nunca juega fútbol, por sus gestos y su forma de hablar, pero si lo es, nunca te lo ha dicho.\n\n    —Pero entonces ¿ustedes creen que es gay?\n\n    No sabes qué respuesta darle. Hasta el momento la orientación sexual de Daniel no es algo en lo que hayas pensado mucho. Sospechas que puede tratarse de una pregunta truco y que de tu respuesta depende que te matonee o no. ",
+		"siguiente": 34
+	},
+
+	{
+		"tipo": "DE",
+		"indice": 34,
+		"prompt":"Le respondes que ",
+		"contenido": [
+			{
+				"num": 1,
+				"opción": "sí. ",
+				"detalle": [],
+				"input":"",
+				"verso": [{"v":"No atraviesan la corteza ", "preposición":0, "parte":3}],
+				"siguiente": 35
+			},
+			{
+				"num": 2,
+				"opción": "no. ",
+				"detalle": [],
+				"input":"",
+				"verso": [{"v":"Siembran una selva estrangulada ", "preposición":0, "parte":3}],
+				"siguiente": 36
+			},
+			{
+				"num": 3,
+				"opción": "no sabes. ",
+				"detalle": [],
+				"input":"",
+				"verso": [{"v":"Descansan en la suavidad del musgo ", "preposición":0, "parte":3}],
+				"siguiente": 37
+			}
+		] 
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 35,
+		"contenido": "—¡Ja! Sabía. Es que tiene que ser gay ¿no? —te dice.\n\n    —Sí… —te sientes incómodo. En realidad no es algo que te importara lo suficiente como para averiguarlo o discutirlo, pero sentiste que esa era la respuesta que él buscaba. Parece que no te equivocaste.\n\n    —¡Ellos también creen que sí! —le anuncia Mateo a sus amigos. Se dirige a ellos y se ríen.\n\n    Aprovechas que te dio la espalda y te vas sin mirar atrás. Temes que se burlen de ti o que Mateo vuelva a detenerte para hacerte más preguntas sobre el resto de tus amigos o, peor, sobre ti. ",
+		"siguiente": 38
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 36,
+		"contenido": "—¿De verdad no? —te responde con exageración —dígame la verdad, yo no le voy a decir ni nada.\n\n    —No, en verdad no creo.\n\n    —¿Entonces será que es bisexual o algo así raro?\n\n    —Pues creo que le gustan las viejas o sea nunca ha dicho nada de eso en realidad.\n\n    —No, yo sí creo que es gay. Como Antonio ¿usted sí que es gay cierto? —dice riendo y dirigiéndose a uno de sus amigos.\n\n    —Cállese estúpido —le responde Antonio.\n\n    Aprovechas la distracción para escabullirte. Vas en busca de tus amigos sintiendo que le acabas de hacer un favor a Daniel, como si hubieras defendido su honor o algo así. Te preguntas si Mateo también piensa que eres gay. ",
+		"siguiente": 38
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 37,
+		"contenido": "—¿No sabe? Solo dígame qué cree, huevón —te dice —agh, eso es que todos sus amigos son gays y se pasan los recreos chupándose el pipí.\n\n    Mateo se da la vuelta y vuelve con sus amigos haciendo gestos de que no sirves para nada. Te vas antes de que se dé cuenta. Le dijiste la verdad: no sabes. Daniel nunca te ha dicho nada al respecto, pero no puedes estar seguro. Te da rabia que todo el mundo tenga que caber en cajas, que haya que ser una cosa o la otra en vez de que se pueda existir y ya. ",
+		"siguiente": 38
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 38,
+		"contenido": "    El encuentro con Mateo te deja nervioso. Tal vez debiste decirle otra cosa. Ese tipo de interacciones se sienten como exámenes indirectos que puedes perder o pasar, como evaluaciones de tu ser con el propósito oculto de dictar si perteneces o no sin que puedas hacer nada al respecto. Es como si cada acto, cada gesto y cada palabra entraran a la cuidadosa consideración de un juez con miles de ojos que decide tu destino sesenta veces por minuto. Sientes que hay una coreografía secreta que hay que seguir.",
+		"siguiente": 39
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 39,
+		"contenido": "Todo el mundo excepto tú parece conocer los pasos o parece haber recibido las direcciones impresas, detalladas y bien explicadas en algún momento de su vida, por lo que tú debes navegar ciegamente sin saber con exactitud qué es aceptable, qué es raro y qué te puede condenar. Además, siempre es alguien más, el que mejor conoce los pasos, quien decide si se puede improvisar o si cambia el ritmo o si todavía se hacen ciertos movimientos. ",
+		"siguiente": 40
+	},
+
+	{
+		"tipo": "DE",
+		"indice": 40,
+		"prompt":"Toda tu vida te has esforzado por seguir la coreografía, por mantenerte al tanto de qué es lo popular, de qué música se puede escuchar, de qué ropa se puede usar, de qué se vuelve infantil o tonto o ridículo, pero tus sentidos están inhibidos por una ineptitud extraña, por una incapacidad inherente que te hace sentir como si la realidad fuera ",
+		"contenido": [
+			{
+				"num": 1,
+				"opción": "una voz tenue que no logras entender entre el ruido de una fiesta. ",
+				"detalle": [],
+				"input":"",
+				"verso": [{"v":"sobre los troncos más antiguos. ", "preposición":0, "parte":4}],
+				"siguiente": 41
+			},
+			{
+				"num": 2,
+				"opción": "una imagen distorsionada a través de una ventana cuando llueve. ",
+				"detalle": [],
+				"input":"",
+				"verso": [{"v":"que envuelve el corazón. ", "preposición":0, "parte":4}],
+				"siguiente": 42
+			},
+			{
+				"num": 3,
+				"opción": "un sabor imposible de determinar. ",
+				"detalle": [],
+				"input":"",
+				"verso": [{"v":"y se aferran a los huesos. ", "preposición":0, "parte":4}],
+				"siguiente": 43
+			}
+		] 
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 41,
+		"contenido": "Oyes la música, sientes el bajo retumbar, las otras voces que gritan, la bulla y los saltos y sin importar cuánto intentas salir de la fiesta a donde haya un poco de silencio, solamente encuentras más y más ruido como si estuviera dentro de tu cabeza mientras que la voz se siente lejana, débil, como si no existiera en realidad.\n\n    Nunca te has atrevido a decidir tú mismo qué es esa realidad. Piensas que eres solo un pasajero en un vehículo misterioso y no sabes quién conduce. ",
+		"siguiente": 44
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 42,
+		"contenido": "Las gotas en la ventana disparan la luz hacia todas partes, caen, se deslizan y se llevan pedazos de la imagen, borran las líneas, añaden curvas y sustraen detalles y multiplican la realidad infinitamente hasta que queda fragmentada e incomprensible y ya no se puede saber si hay algo más allá de la ventana.\n\n    Nunca te has atrevido a decidir tú mismo qué es esa realidad. Piensas que eres solo un pasajero en un vehículo misterioso y no sabes quién conduce. ",
+		"siguiente": 44
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 43,
+		"contenido": "Como si te acabaras de lavar los dientes y todos los sabores que procesas fueran versiones falsas y corrompidas de la original que está ahí detrás en algún lado y llega solamente de a pedazos y se escapa de la lengua y deja un sabor amargo de manera que no sabes si en realidad lo único que estás experimentando es el sabor de la crema de dientes.\n\n    Nunca te has atrevido a decidir tú mismo qué es esa realidad. Piensas que eres solo un pasajero en un vehículo misterioso y no sabes quién conduce. ",
+		"siguiente": 44
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 44,
+		"contenido": "    Cuando llegas a donde te esperan tus amigos estás distraído, atrapado en tus pensamientos, y el último rato que tienes con ellos se te escapa. Lo mismo te pasa con las últimas clases del día. Las horas pasan sin que las sientas y llega el momento de despedirte de tus amigos, que parten felizmente a comenzar sus vacaciones. Llegas al salón donde tomarás las dos primeras horas del remedial de matemáticas. La profesora no ha comenzado la clase. ",
+		"siguiente": 45
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 45,
+		"contenido": "    Matemáticas es la clase que más personas pierden y el salón está más lleno de lo que esperabas, pero no hay nadie que conozcas bien. Hay varios repitentes, entre ellos Andrés de tu clase de historia. Analizas la organización del salón para decidir en qué puesto deberías sentarte y escoges uno hacia la ventana, cerca de la profesora. Intentas pasar desapercibido frente a tus compañeros pero Andrés se para frente a ti en la mitad del salón, como si fuera a retarte a un duelo. ",
+		"siguiente": 46
+	},
+
+	{
+		"tipo": "TD",
+		"indice": 46,
+		"contenido": {
+			"fijo":"",
+			"parte":2
+		},
+		"siguiente": 47
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 47,
+		"contenido": "Vas a evitarlo y seguir pero te detiene. Sientes que te está mirando todo el salón. Buscas a la profesora a ver si puede rescatarte pero está ocupada con su portátil.\n\n    —¿Usted sabe bailar? —te pregunta. Parece que no le importa que lo hayas ignorado la primera vez, pero ahora sí espera que digas algo. La respuesta verdadera sería un “no” simple y decisivo. ",
+		"siguiente": 48
+	},
+
+	{
+		"tipo": "DE",
+		"indice": 48,
+		"prompt":"Decides decirle que ",
+		"contenido": [
+			{
+				"num": 1,
+				"opción": "sí. ",
+				"detalle": [],
+				"input":"",
+				"verso": [],
+				"siguiente": 49
+			},
+			{
+				"num": 2,
+				"opción": "no. ",
+				"detalle": [],
+				"input":"",
+				"verso": [],
+				"siguiente": 52
+			}
+		] 
+	},
+
+	{
+		"tipo": "DE",
+		"indice": 49,
+		"prompt":"Pero algo te detiene al momento de decirlo. ¿Puedes decirle mentiras? ¿Y si te pide que se lo demuestres? Sientes que él sabe que la respuesta es no y te pregunta solamente para incomodarte. Lo piensas dos veces. Decides decir que ",
+		"contenido": [
+			{
+				"num": 1,
+				"opción": "sí de todas formas. ",
+				"detalle": [],
+				"input":"",
+				"verso": [],
+				"siguiente": 50
+			},
+			{
+				"num": 2,
+				"opción": "no. ",
+				"detalle": [],
+				"input":"",
+				"verso": [],
+				"siguiente": 51
+			}
+		] 
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 50,
+		"contenido": "    —¿Sí? Entonces ¿por qué se la pasa parado solo en las fiestas en vez de bailar con sus amigos? —te dice, y no sabes qué responderle. ",
+		"siguiente": 53
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 51,
+		"contenido": "    —¿Por qué no? —te responde sin más. No sabes qué contestar. Es porque tú eres tú y punto, porque así es la vida, porque sí. ",
+		"siguiente": 53
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 52,
+		"contenido": "Ni siquiera se te ocurre decir mentiras, la verdad sale de tu boca como si la pregunta te la hubiera arrancado.\n\n    —¿Por qué no? —te responde sin más. Vuelve a darte rabia ¿qué obligación tienes tú de decir por qué eres o no eres? ",
+		"siguiente": 53
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 53,
+		"contenido": "Antes de que puedas decir cualquier cosa, la profesora les dice a todos que se sienten, que van a comenzar. Acabas de sufrir otra evaluación de tu ser, pero no fue sutil como la mayoría sino que fue directa, explícita y encima fue imposible de responder correctamente. Además fue en frente de todos tus compañeros. Sigues distraído y no logras concentrarte en las explicaciones de la profesora. Piensas en si deberías tomar lecciones de baile, en que no sabes cómo hace la gente para tener ritmo o dirigir a una pareja, te preguntas si más bien alguien podría dirigirte a ti pero recuerdas que eso solo lo hace el hombre. Haces mal todos los ejercicios y no respondes bien una sola vez a las preguntas de tu profesora. ",
+		"siguiente": 54
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 54,
+		"contenido": "Piensas que para las mujeres es mucho más fácil bailar, que ni siquiera sabes qué tipos de bailes existen, que no es algo que se aprende sino que se tiene por dentro, que tal vez bailar es lo que te falta para lograr ser normal o tal vez en realidad a nadie le importa saber bailar y que no tiene gracia. Oyes risas y cuchicheos que vienen de donde está sentado Andrés. Te persigue una sensación de paranoia que no logras encontrar exactamente de dónde viene o más bien sientes que viene de todas partes. La profesora les da un receso de quince minutos y te pide que hables con ella un momento. ",
+		"siguiente": 55
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 55,
+		"contenido": "    —¿Qué pasó? ¿Por qué no estas respondiendo ni lo más básico que vimos al comienzo del año? —te dice.\n\n    —No, no sé… —respondes.\n\n    —Yo me acuerdo que estas cosas tú podías resolverlas cuando las vimos.\n\n    —…\n\n    —¿Es algo que te dijo Andrés? ¿Qué pasó al principio de la clase?\n\n    —Es solo que a veces me preguntan unas cosas y no sé qué responderles. ",
+		"siguiente": 56
+	},
+
+	{
+		"tipo": "TU",
+		"indice": 56,
+		"contenido": "    —Pero ¿cómo así? ¿qué cosas?\n\n    —Si sé bailar y otras cosas que ellos saben de las cosas populares.\n\n    —No puede ser ¿¡eso por qué no te deja estudiar!?\n\n    —¡Es que no los entiendo! Y no sé qué debería hacer y siento que creen que soy raro o inmaduro pero yo solo quiero estar tranquilo.",
+		"siguiente": 57
+	},
+
+	{
+		"tipo": "DE",
+		"indice": 57,
+		"prompt":"    —Pero a ver ¿¡a ti te importa lo que piensen de ti!? ¿¡lo que digan de ti!? ",
+		"contenido": [
+			{
+				"num": 1,
+				"opción": "—¡Sí! ",
+				"detalle": [],
+				"input":"",
+				"verso": [{"v":"Se parten vencidas\npor su propio peso. ", "preposición":0, "parte":5}],
+				"siguiente": 58
+			},
+			{
+				"num": 2,
+				"opción": "—¡No! ",
+				"detalle": [],
+				"input":"",
+				"verso": [{"v":"Se deshacen y cuelgan\nde hilos de sol. ", "preposición":0, "parte":5}],
+				"siguiente": 58
+			},
+			{
+				"num": 3,
+				"opción": "—¡No sé! ",
+				"detalle": [],
+				"input":"",
+				"verso": [{"v":"Se pierden con la corriente\nentre hojas desamparadas. ", "preposición":0, "parte":5}],
+				"siguiente": 58
+			}
+		] 
+	},
+
+	{
+		"tipo": "FIN",
+		"indice": 58,
+		"contenido": "FIN",
+		"siguiente": 999
+	}
+
+
+]

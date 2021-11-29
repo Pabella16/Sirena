@@ -1,0 +1,23 @@
+[
+	{
+		"relato":"Muñecas",
+		"poema":[],
+		"coleccionable":"Una tarjetita con un tema de conversación. Tiene un diseño de líneas blancas y rosadas por un lado y por el otro dice “[i]What is your earliest memory?[/]” con tinta negra.",
+		"respuesta":"",
+		"encontrado":false
+	},
+
+	{
+		"relato":"Presión",
+		"poema":[],
+		"coleccionable":"Una hoja de papel con un mapa de Colombia. Tiene dibujado el contorno de cada departamento.",
+		"encontrado":false
+	},
+
+	{
+		"relato":"Hambre",
+		"poema":[],
+		"coleccionable":"Un portavazos de cartón circular. Tiene el nombre de un bar y el logo de una marca de cerveza en el frente. Por detrás tiene un número de teléfono escrito con esfero: [i]867-5309[/].",
+		"encontrado":false
+	}
+]
