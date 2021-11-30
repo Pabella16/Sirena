@@ -8,7 +8,7 @@ Según las opciones que el lector escoge introduciendo un número, la obra puede
 
 # Archivos:
 El proyecto incluye:
-1.  Un archivo "Cantos\_de\_sirena.exe" o "Cantos\_de\_sirena.app" dependiendo de la versión.
+1.  Un archivo "Cantos\_de\_sirena.exe".
 2.  Cinco archivos .json. Tres relatos, un tutorial y un archivo de datos:
     1.  "data.json"
     2.  "MUNECAS.json"
