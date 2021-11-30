@@ -23,13 +23,6 @@ El proyecto incluye:
 # Instrucciones:
 Extraer el contenido del archivo comprimido y correr el archivo .exe
 
-El programa NO es malicioso. En caso de que un antivirus bloquee automáticamente la ejecucción del programa, es posible excluir ciertas carpetas o archivos del análisis del antivirus en la configuración del mismo. Esto debería permitir que el programa corra sin problema.
-
-Por ejemplo, en seguridad de Windows:
-
-![](https://i.imgur.com/51PX42W.jpg)
-![](https://i.imgur.com/biVD5BZ.jpg)
-
 # Pantallazos:
 ![](https://i.imgur.com/z4D2LzY.jpg)
 
