@@ -15,7 +15,7 @@ Si definitivamente no puede correr el ejecutable incluyo las siguientes alternat
 Según las opciones que el lector escoge introduciendo un número, la obra puede sufrir una serie de transformaciones. Los principales cambios suceden en el desarrollo de los relatos y en la generación de los poemas. El lector transforma el texto y escoge qué escenas se presentarán con ciertas decisiones. También escoge (sin saberlo) qué versos combinan para completar el poema que se presentará al final de cada relato. Adicionalmente, puede afectar detalles menores que aparecen en el texto. Esto hace a la lectura personalizada natural y consecuente, pues el relato “recuerda” la opción escogida y la refleja. Por último, ciertas decisiones permiten al lector llevarse una especie de objeto coleccionable relacionado con cada relato. Con este formato, el texto en sí es fluido y cambiante, como las nociones del deseo y la identidad que explora, y la participación del lector en la propuesta es activa y necesaria. De esta manera, el proyecto permite una lectura coherente en términos ludo-narrativos con la representación del género y el deseo como un “durante” constante, múltiple y variable.
 
 # Instrucciones:
-Extraer el contenido del archivo comprimido y correr el archivo .exe
+Descargar el contenido del repositorio y correr el archivo "Cantos\_de\_sirena.exe". Este archivo debe estar en la misma carpeta que los archivos con terminación .json
 
 # Archivos:
 El proyecto incluye:
